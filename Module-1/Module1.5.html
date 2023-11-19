@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Leap Year Checker</title>
+</head>
+<body>
+    <script>
+        'use strict';
+
+        const year = parseInt(prompt("Enter a year:"));
+
+        let isLeapYear = false;
+
+        if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+            isLeapYear = true;
+        }
+
+        document.write("<h1>Leap Year Checker</h1>");
+        document.write("<p>" + year + " is " + (isLeapYear ? "a leap year." : "not a leap year.") + "</p>");
+    </script>
+</body>
+</html>
