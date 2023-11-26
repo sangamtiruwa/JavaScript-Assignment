@@ -1,3 +1,4 @@
+'use strict';
 const enteredNumbers = new Set();
 
 while (true) {
