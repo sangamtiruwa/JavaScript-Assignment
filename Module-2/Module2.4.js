@@ -1,5 +1,5 @@
+'use strict';
 const numbers = [];
-
 let userInput;
 do {
     userInput = prompt('Enter a number (enter 0 to stop)');

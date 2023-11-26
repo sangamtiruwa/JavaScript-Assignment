@@ -1,3 +1,4 @@
+'use strict';
 const dogNames = [];
 
 for (let i = 0; i < 6; i++) {
@@ -14,5 +15,4 @@ for (const dogName of dogNames) {
     listItem.textContent = dogName;
     unorderedList.appendChild(listItem);
 }
-
 document.body.appendChild(unorderedList);

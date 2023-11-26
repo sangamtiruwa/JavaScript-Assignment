@@ -22,5 +22,4 @@ while (true) {
 }
 
 const sortedNumbers = Array.from(enteredNumbers).sort((a, b) => a - b);
-
 console.log('Entered Numbers (in ascending order):', sortedNumbers);

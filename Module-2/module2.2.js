@@ -1,3 +1,4 @@
+'use strict';
 const participantCount = prompt('Enter the number of participants');
 const participantNames = [];
 
